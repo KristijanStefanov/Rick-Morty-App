@@ -12,3 +12,5 @@ Technology
 - GraphQL
 - i18next
 - Tailwind CSS
+
+Deployed app on vercal: https://rick-morty-app-one-peach.vercel.app/
