@@ -184,16 +184,16 @@ function CharacterList() {
           </div>
           <div className="flex-1">
             <label className="block text-sm font-medium text-gray-700 mb-1">
-              {t('sortBy')}
+              {t('SortBy')}
             </label>
             <select
               onChange={handleSortChange}
               value={sortBy}
               className="w-full border p-2 rounded focus:ring-2 focus:ring-blue-500 focus:outline-none"
             >
-              <option value="">{t('sort')}</option>
-              <option value="name">{t('name')}</option>
-              <option value="origin">{t('origin')}</option>
+              <option value="">{t('Sort')}</option>
+              <option value="name">{t('Name')}</option>
+              <option value="origin">{t('Origin')}</option>
             </select>
           </div>
         </div>
